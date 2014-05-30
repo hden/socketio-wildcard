@@ -1,0 +1,30 @@
+{
+  "name": "socketio-wildcard",
+  "version": "0.0.0",
+  "description": "socket.io with a wildcard event",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hden/socketio-wildcard.git"
+  },
+  "keywords": [
+    "socket.io",
+    "websocket"
+  ],
+  "author": "Hao-kang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/socketio-wildcard/issues"
+  },
+  "homepage": "https://github.com/hden/socketio-wildcard",
+  "devDependencies": {
+    "mocha": "~1.20.0",
+    "socket.io": "~1.0.2",
+    "socket.io-client": "~1.0.2",
+    "coffee-script": "~1.7.1",
+    "chai": "~1.9.1"
+  }
+}
