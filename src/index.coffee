@@ -1,7 +1,7 @@
 'use strict'
 
 Emitter = require('events').EventEmitter
-emit    = Emitter.prototype.emit
+emit    = Emitter::emit
 
 onevent = (packet) ->
   args = packet.data or []
