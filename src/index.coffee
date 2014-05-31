@@ -14,6 +14,5 @@ onevent = (packet) ->
 
 module.exports = ->
   (socket, next) ->
-    return if socket.onevent is onevent
-    socket.onevent = onevent
+    socket.onevent = onevent unless socket.onevent is onevent
     next()

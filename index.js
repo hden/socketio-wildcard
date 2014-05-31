@@ -19,10 +19,9 @@
 
   module.exports = function() {
     return function(socket, next) {
-      if (socket.onevent === onevent) {
-        return;
+      if (socket.onevent !== onevent) {
+        socket.onevent = onevent;
       }
-      socket.onevent = onevent;
       return next();
     };
   };
