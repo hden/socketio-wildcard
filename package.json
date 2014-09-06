@@ -4,7 +4,9 @@
   "description": "socket.io with a wildcard event",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "watch": "./node_modules/.bin/coffee -w -c -o . src/",
+    "build": "./node_modules/.bin/coffee -co . src/"
   },
   "repository": {
     "type": "git",
@@ -21,10 +23,10 @@
   },
   "homepage": "https://github.com/hden/socketio-wildcard",
   "devDependencies": {
-    "mocha": "~1.20.0",
-    "socket.io": "~1.0.2",
-    "socket.io-client": "~1.0.2",
+    "chai": "~1.9.1",
     "coffee-script": "~1.7.1",
-    "chai": "~1.9.1"
+    "mocha": "~1.20.0",
+    "socket.io-client": "^1.1.0",
+    "socket.io": "^1.1.0"
   }
 }
