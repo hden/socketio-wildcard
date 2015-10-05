@@ -5,7 +5,8 @@ socketio-wildcard
 [![Build Status](https://david-dm.org/hden/socketio-wildcard.png)](https://david-dm.org/hden/socketio-wildcard#info=devDependencies)
 
 Socket.io with a wildcard event.
-Works with Socket.io v1.0.x
+Works with Socket.io v1.0.x - v1.3.x.
+Tested with node.js v0.10.x, v0.11.x, v0.12.x, v4.1.x.
 
 Installation
 ------------
