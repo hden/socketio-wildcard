@@ -33,11 +33,6 @@ Usage
 
     io.listen(8000);
 
-Badges
-------
-
-[![NPM](https://nodei.co/npm-dl/socketio-wildcard.png)](https://nodei.co/npm/socketio-wildcard.png?downloads=true&downloadRank=true&stars=true)
-
 Licence
 -------
 MIT
