@@ -1,8 +1,10 @@
 socketio-wildcard
 =================
 
-[![Build Status](https://travis-ci.org/hden/socketio-wildcard.svg)](https://travis-ci.org/hden/socketio-wildcard)
-[![Build Status](https://david-dm.org/hden/socketio-wildcard.png)](https://david-dm.org/hden/socketio-wildcard#info=devDependencies)
+[![Build Status](https://img.shields.io/travis/hden/socketio-wildcard.svg)](https://travis-ci.org/hden/socketio-wildcard)
+[![Build Status](https://img.shields.io/david/hden/socketio-wildcard.png)](https://david-dm.org/hden/socketio-wildcard)
+[![Build Status](https://img.shields.io/david/dev/hden/socketio-wildcard.png)](https://david-dm.org/hden/socketio-wildcard#info=devDependencies)
+
 [![NPM](https://nodei.co/npm-dl/socketio-wildcard.png?height=3)](https://nodei.co/npm/socketio-wildcard/)
 
 Socket.io with a wildcard event.
