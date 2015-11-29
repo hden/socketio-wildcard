@@ -2,16 +2,18 @@ socketio-wildcard
 =================
 
 [![Build Status](https://img.shields.io/travis/hden/socketio-wildcard.svg)](https://travis-ci.org/hden/socketio-wildcard)
-[![Build Status](https://img.shields.io/david/hden/socketio-wildcard.png)](https://david-dm.org/hden/socketio-wildcard)
-[![Build Status](https://img.shields.io/david/dev/hden/socketio-wildcard.png)](https://david-dm.org/hden/socketio-wildcard#info=devDependencies)
+[![Dependencies](https://img.shields.io/david/hden/socketio-wildcard.svg)](https://david-dm.org/hden/socketio-wildcard)
+[![devDependencies](https://img.shields.io/david/dev/hden/socketio-wildcard.svg)](https://david-dm.org/hden/socketio-wildcard#info=devDependencies)
+[![npm](https://img.shields.io/npm/dm/socketio-wildcard.svg)](https://www.npmjs.com/package/socketio-wildcard)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-[![NPM](https://nodei.co/npm-dl/socketio-wildcard.png?height=3)](https://nodei.co/npm/socketio-wildcard/)
+[![npm](https://nodei.co/npm-dl/socketio-wildcard.png?height=3)](https://nodei.co/npm/socketio-wildcard/)
 
 Socket.io with a wildcard event.
 
-Works with Socket.io v1.0.x - v1.3.x.
+Works with Socket.io `v1.0.x` - `v1.3.x`.
 
-Tested with node.js `v0.10.x`, `v0.11.x`, `v0.12.x`, `v4.1.x`, `v4.2.x`, `v5.x`.
+Tested with node.js `v0.10.x`, `v0.11.x`, `v0.12.x`, `v4.x`, `v5.x`.
 
 Installation
 ------------
@@ -22,16 +24,25 @@ Installation
 Usage
 -----
 
-    var io         = require('socket.io')();
-    var middleware = require('socketio-wildcard')();
+```js
+var io         = require('socket.io')();
+var middleware = require('socketio-wildcard')();
 
-    io.use(middleware);
+io.use(middleware);
 
-    io.on('connection', function(socket) {
-      socket.on('*', function(){ /* … */ });
-    });
+io.on('connection', function(socket) {
+  socket.on('*', function(){ /* … */ });
+});
 
-    io.listen(8000);
+io.listen(8000);
+```
+
+Changelog
+---------
+
+### [0.2.0] - 2015-11-29
+- wildcard listener for all events get called first ([@Michael77](https://github.com/Michael77))
+- removed coffee-script dependency
 
 Licence
 -------
