@@ -13,8 +13,8 @@
     if (packet.id != null) {
       args.push(this.ack(packet.id));
     }
-    emit.apply(this, args);
-    return emit.call(this, '*', packet);
+    emit.call(this, '*', packet);
+    return emit.apply(this, args);
   };
 
   module.exports = function() {
