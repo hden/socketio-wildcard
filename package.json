@@ -1,6 +1,6 @@
 {
   "name": "socketio-wildcard",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "socket.io with a wildcard event",
   "main": "index.js",
   "scripts": {
