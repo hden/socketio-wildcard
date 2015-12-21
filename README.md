@@ -24,6 +24,8 @@ Installation
 Usage
 -----
 
+### Server
+
 ```js
 var io         = require('socket.io')();
 var middleware = require('socketio-wildcard')();
@@ -37,8 +39,24 @@ io.on('connection', function(socket) {
 io.listen(8000);
 ```
 
+### Client
+
+```js
+var io = require('socket.io-client');
+var socket = io('http://localhost');
+// piggyback using the event-emitter bundled with socket.io client
+var patch = require('socketio-wildcard')(io.Manager);
+patch(socket);
+
+socket.on('*', function(){ /* … */ })
+```
+
 Changelog
 ---------
+
+### [0.3.0] - 2015-12-21
+- allow custom event emitter
+- support socket.io client
 
 ### [0.2.0] - 2015-11-29
 - wildcard listener for all events get called first ([@Michael77](https://github.com/Michael77))
