@@ -1,10 +1,11 @@
 /*global describe, before, it*/
 'use strict'
-var connect = require('socket.io-client')
-var assert = require('power-assert')
+var path = require('path')
 var io = require('socket.io')()
+var assert = require('power-assert')
+var connect = require('socket.io-client')
 
-var wildcard = require(__dirname + '/../')
+var wildcard = require(path.resolve(__dirname, '..'))
 
 describe('server', function () {
   var nsp
