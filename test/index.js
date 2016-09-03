@@ -1,4 +1,4 @@
-/*global describe, before, it*/
+/* global describe, before, it */
 'use strict'
 var path = require('path')
 var io = require('socket.io')()
