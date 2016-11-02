@@ -23,10 +23,10 @@
   "devDependencies": {
     "espower-loader": "^1.0.1",
     "intelli-espower-loader": "^1.0.1",
-    "mocha": "^3.0.2",
+    "mocha": "^3.1.2",
     "power-assert": "^1.4.1",
-    "socket.io": "^1.4.8",
-    "socket.io-client": "^1.4.8",
-    "standard": "^8.0.0"
+    "socket.io": "^1.5.1",
+    "socket.io-client": "^1.5.1",
+    "standard": "^8.5.0"
   }
 }
