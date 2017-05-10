@@ -11,9 +11,9 @@ socketio-wildcard
 
 Socket.io with a wildcard event.
 
-Works with Socket.io `v1.0.x` - `v1.4.x`.
+Works with Socket.io `v1.x` - `v2.x`.
 
-Tested with node.js `v0.10.x`, `v0.11.x`, `v0.12.x`, `v4.x`, `v5.x`, `v6.x`.
+Tested with node.js `v4.x`, `v5.x`, `v6.x`, `v7.x`.
 
 Installation
 ------------
