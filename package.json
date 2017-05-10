@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/hden/socketio-wildcard",
   "devDependencies": {
-    "espower-loader": "^1.0.1",
+    "espower-loader": "^1.2.2",
     "intelli-espower-loader": "^1.0.1",
-    "mocha": "^3.1.2",
-    "power-assert": "^1.4.1",
-    "socket.io": "^1.5.1",
-    "socket.io-client": "^1.5.1",
-    "standard": "^8.5.0"
+    "mocha": "^3.3.0",
+    "power-assert": "^1.4.2",
+    "socket.io": "^2.0.1",
+    "socket.io-client": "^2.0.1",
+    "standard": "^10.0.2"
   }
 }
