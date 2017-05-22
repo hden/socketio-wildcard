@@ -57,6 +57,10 @@ socket.on('*', function(){ /* … */ })
 Changelog
 ---------
 
+### [2.0.0] - 2016-05-23
+- no breaking change
+- update test dependencies for socket.io v2
+
 ### [0.3.0] - 2015-12-21
 - allow custom event emitter
 - support socket.io client
