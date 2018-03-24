@@ -15,6 +15,19 @@ Works with Socket.io `v1.x` - `v2.x`.
 
 Tested with node.js `v4.x`, `v5.x`, `v6.x`, `v7.x`, `v8.x`.
 
+Sunsetting
+----------
+As of Socket.io v2.0.4 ([commit](https://github.com/socketio/socket.io/commit/5a123beea597c9fda7b722f18343fdc2c2755e79#diff-9b2f90c89d460ee80ced18e01748824e)), you can use a socket middleware to catch every incoming Packet, which satisfies most of socketio-wildcard's use cases.
+
+```js
+io.on('connection', (socket) => {
+  socket.use((packet, next) => {
+    // Handler
+    next();
+  });
+});
+```
+
 Installation
 ------------
 
