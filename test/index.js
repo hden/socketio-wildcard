@@ -1,4 +1,4 @@
-/* global describe, before, it */
+/* eslint-env node, mocha */
 'use strict'
 var path = require('path')
 var sio = require('socket.io')
