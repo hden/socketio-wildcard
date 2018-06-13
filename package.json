@@ -24,7 +24,7 @@
     "espower-loader": "1.2.2",
     "intelli-espower-loader": "1.0.1",
     "mocha": "5.2.0",
-    "power-assert": "1.5.0",
+    "power-assert": "1.6.0",
     "socket.io": "2.1.1",
     "socket.io-client": "2.1.1",
     "standard": "11.0.1"
