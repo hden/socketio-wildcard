@@ -6,9 +6,9 @@ socketio-wildcard
 [![devDependencies](https://img.shields.io/david/dev/hden/socketio-wildcard.svg)](https://david-dm.org/hden/socketio-wildcard#info=devDependencies)
 [![npm](https://img.shields.io/npm/dm/socketio-wildcard.svg)](https://www.npmjs.com/package/socketio-wildcard)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![codecov](https://codecov.io/gh/hden/socketio-wildcard/branch/master/graph/badge.svg)](https://codecov.io/gh/hden/socketio-wildcard)
 
 [![npm](https://nodei.co/npm-dl/socketio-wildcard.png?height=3)](https://nodei.co/npm/socketio-wildcard/)
-[![codecov](https://codecov.io/gh/hden/socketio-wildcard/branch/master/graph/badge.svg)](https://codecov.io/gh/hden/socketio-wildcard)
 
 Socket.io with a wildcard event.
 
