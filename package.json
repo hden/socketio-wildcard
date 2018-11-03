@@ -4,7 +4,9 @@
   "description": "socket.io with a wildcard event",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha"
+    "test": "standard && mocha",
+    "coverage": "c8 --reporter=text-lcov mocha --require intelli-espower-loader > coverage.lcov",
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
   },
   "homepage": "https://github.com/hden/socketio-wildcard",
   "devDependencies": {
+    "c8": "^3.2.1",
+    "codecov": "^3.1.0",
     "espower-loader": "1.2.2",
     "intelli-espower-loader": "1.0.1",
     "mocha": "5.2.0",

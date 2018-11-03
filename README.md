@@ -8,6 +8,7 @@ socketio-wildcard
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 [![npm](https://nodei.co/npm-dl/socketio-wildcard.png?height=3)](https://nodei.co/npm/socketio-wildcard/)
+[![codecov](https://codecov.io/gh/hden/socketio-wildcard/branch/master/graph/badge.svg)](https://codecov.io/gh/hden/socketio-wildcard)
 
 Socket.io with a wildcard event.
 
