@@ -7,6 +7,7 @@ socketio-wildcard
 [![npm](https://img.shields.io/npm/dm/socketio-wildcard.svg)](https://www.npmjs.com/package/socketio-wildcard)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![codecov](https://codecov.io/gh/hden/socketio-wildcard/branch/master/graph/badge.svg)](https://codecov.io/gh/hden/socketio-wildcard)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhden%2Fsocketio-wildcard.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhden%2Fsocketio-wildcard?ref=badge_shield)
 
 [![npm](https://nodei.co/npm-dl/socketio-wildcard.png?height=3)](https://nodei.co/npm/socketio-wildcard/)
 
@@ -107,3 +108,7 @@ Changelog
 Licence
 -------
 MIT
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhden%2Fsocketio-wildcard.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhden%2Fsocketio-wildcard?ref=badge_large)
