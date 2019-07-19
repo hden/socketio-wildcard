@@ -27,7 +27,7 @@
     "codecov": "3.5.0",
     "espower-loader": "1.2.2",
     "intelli-espower-loader": "1.0.1",
-    "mocha": "6.1.4",
+    "mocha": "6.2.0",
     "power-assert": "1.6.1",
     "socket.io": "2.2.0",
     "socket.io-client": "2.2.0",
