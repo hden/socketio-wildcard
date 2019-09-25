@@ -15,7 +15,7 @@ Socket.io with a wildcard event.
 
 Works with Socket.io `v1.x` - `v2.x`.
 
-Tested with node.js `v6.x`, `v7.x`, `v8.x`, , `v10.x`.
+Tested with node.js `v8.x` - `v12.x`.
 
 Sunsetting
 ----------

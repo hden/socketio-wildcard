@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "socket.io with a wildcard event",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
   "scripts": {
     "test": "standard && mocha",
     "coverage": "c8 --reporter=text-lcov mocha --require intelli-espower-loader > coverage.lcov",
