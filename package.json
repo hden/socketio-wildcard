@@ -34,6 +34,6 @@
     "power-assert": "1.6.1",
     "socket.io": "3.0.4",
     "socket.io-client": "3.0.4",
-    "standard": "14.3.4"
+    "standard": "16.0.3"
   }
 }
