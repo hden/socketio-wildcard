@@ -29,7 +29,7 @@
     "c8": "7.7.0",
     "codecov": "3.8.1",
     "espower-loader": "1.2.2",
-    "intelli-espower-loader": "1.0.1",
+    "intelli-espower-loader": "1.1.0",
     "mocha": "8.3.2",
     "power-assert": "1.6.1",
     "socket.io": "4.0.1",
