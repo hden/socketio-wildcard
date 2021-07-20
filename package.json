@@ -27,7 +27,7 @@
   "homepage": "https://github.com/hden/socketio-wildcard",
   "devDependencies": {
     "c8": "7.7.3",
-    "codecov": "3.8.2",
+    "codecov": "3.8.3",
     "espower-loader": "1.2.2",
     "intelli-espower-loader": "1.1.0",
     "mocha": "9.0.2",
