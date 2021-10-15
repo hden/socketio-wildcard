@@ -15,8 +15,9 @@ module.exports = function (CustomEmitter) {
   }
 
   return function (socket, next) {
-    if (socket.onevent !== onevent) {
-      socket.onevent = onevent
+    var fn = onevent.bind(socket)
+    if (socket.onevent !== fn) {
+      socket.onevent = fn
     }
     return next ? next() : null
   }
