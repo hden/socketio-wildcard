@@ -32,8 +32,8 @@
     "intelli-espower-loader": "1.1.0",
     "mocha": "9.2.2",
     "power-assert": "1.6.1",
-    "socket.io": "4.4.1",
-    "socket.io-client": "4.4.1",
+    "socket.io": "4.5.0",
+    "socket.io-client": "4.5.0",
     "standard": "17.0.0"
   }
 }
