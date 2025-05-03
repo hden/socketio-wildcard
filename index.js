@@ -1,12 +1,19 @@
 'use strict'
 var BuiltInEmitter = require('events').EventEmitter
+var isArray = Array.isArray || function (o) {
+  return Object.prototype.toString.call(o) === '[object Array]'
+}
 
 module.exports = function (CustomEmitter) {
   var Emitter = CustomEmitter || BuiltInEmitter
   var emit = Emitter.prototype.emit
 
   function onevent (packet) {
-    var args = packet.data || []
+    var args = []
+
+    if (isArray(packet.data)) {
+      args = packet.data
+    }
     if (packet.id != null) {
       args.push(this.ack(packet.id))
     }
