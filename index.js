@@ -6,7 +6,11 @@ module.exports = function (CustomEmitter) {
   var emit = Emitter.prototype.emit
 
   function onevent (packet) {
-    var args = packet.data || []
+    var args = [];
+
+    if (packet.data && packet.data.constructor === Array) {
+      args = packet.data
+    }
     if (packet.id != null) {
       args.push(this.ack(packet.id))
     }
